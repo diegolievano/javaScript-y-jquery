@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://www.ostraining.com/images/coding/jquery-flip/demo/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="robots" content="noindex, nofollow">
+	<title> Flip </title>
+	<script src="./jQuery Flip example_files/jquery-2.1.4.min.js.descarga"></script>
+	<script src="./jQuery Flip example_files/jquery.flip.min.js.descarga"></script>
+	
+	<script>
+    $(function(){
+    	$(".flip-horizontal").flip({
+  			trigger: 'hover'
+		});
+		$(".flip-vertical").flip({
+			axis: 'x',
+  			trigger: 'hover'
+		});
+    });
+		</script>
+
+
+<script>
+		$(function() { 
+var botonMostrar1 = $("#boton-mostrar1"),
+	 
+		parrafo = $("#parrafo1");
+
+botonMostrar1.on("click", function() {
+	parrafo.show();
+});
+
+});
+	</script>
+
+
+
+
+
+
+		
+
+  	<script>
+
+  		$(function() { 
+  var botonMostrar = $("#boton-mostrar"),
+      
+      parrafo = $("#parrafo");
+  
+  botonMostrar.on("click", function() {
+    parrafo.show();
+  });
+   
+});
+		</script>
+		
+  
+  	
+
+	<link href="./jQuery Flip example_files/css" rel="stylesheet" type="text/css">
+    <link href="./jQuery Flip example_files/style.css" rel="stylesheet" media="all">
+</head>
+<body>
+	<h1><b>IMAGENES ROTATE</b></h1>
+
+	<h2>pica chi</h2>
+	
+	<div id="flip-this" class="flip-horizontal" style="perspective: 600px; position: relative; transform-style: preserve-3d;"> 
+  		<div class="front" style="height: 500px; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out 0s; transform: rotateY(0deg);"> 
+    		<img src="imagenes/1.gif" alt="" style="backface-visibility: hidden;" class="v">
+  		</div> 
+  		<div  id="boton" class="back" style="transform: rotateY(-180deg); height: 100%; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out 0s;">
+    		<h3 style="backface-visibility: hidden;">pica chi</h3><p style="display: none;" id="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis laboriosam illum numquam id quis et harum, ad enim hic, facilis recusandae minus eum quaerat dolorum modi, cupiditate maiores perferendis aliquam.</p><button " id="boton-mostrar1">Click</button>
+    		
+    	</div> 	
+  		</div> 
+	</div>
+
+
+<br><br><br><br><br><br><br>
+	<h2>piolin</h2>
+	
+	<div id="flip-this" class="flip-horizontal" style="perspective: 600px; position: relative; transform-style: preserve-3d;"> 
+  		<div class="front" style="height: 500px; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out 0s; transform: rotateY(0deg);"> 
+    		<img src="imagenes/2.gif" alt="" style="backface-visibility: hidden;" class="v">
+  		</div> 
+  		<div  id="boton" class="back" style="transform: rotateY(-180deg); height: 100%; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out 0s;">
+    		<h3 style="backface-visibility: hidden;">pica chi</h3><p style="display: none;" id="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis laboriosam illum numquam id quis et harum, ad enim hic, facilis recusandae minus eum quaerat dolorum modi, cupiditate maiores perferendis aliquam.</p><button " id="boton-mostrar">Click</button>
+    		
+    	</div> 	
+  		</div> 
+	</div>
+
+	
+
+	
+
+
+
+	
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<form name="formu" id="fruta" >
+		SELECCIONA TU FRUTA FAVORITA <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value ="MANGO"> MANGO <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="MANZANA"> MANZANA <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="PAPAYA"> PAPAYA <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="DURAZNO"> DURAZNO <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="PERA"> PERA <br>
+
+		<input type="radio" name="browser" onclick="check(this.value)"
+		value="PIÑA"> PIÑA <br>
+
+		<br>
+		<input type="text" name="respuesta" size="20">
+		
+	</form>
+
+
+script
+
+function  check (browser){
+	document.fruta.respuesta.value = browser;
+}
